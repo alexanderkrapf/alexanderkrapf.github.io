@@ -478,7 +478,7 @@ h4 { font-family: "IBMPlexSans-Italic"; }
 
 .home h5:nth-last-of-type(3) { margin-top: 2.5rem }
 
-.home header div.one-third { display: flex; justify-content: flex-end; }
+.home header div.one-third { display: flex; justify-content: center; }
 
 .contact, .email { margin-bottom: 10px; text-align: center; }
 
