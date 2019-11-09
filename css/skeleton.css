@@ -125,7 +125,7 @@ html {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "koushiki-regular", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "IBMPlexSans-Light", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -133,26 +133,32 @@ html {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @font-face{
-  font-family: 'koushiki-regular';
-  src: url('../fonts/KoushikiSans-Regular.eot');
-      src: url('../fonts/KoushikiSans-Regular.eot?#iefix') format('embedded-opentype'), 
-           url('../fonts/KoushikiSans-Regular.woff') format('woff'),
-           url('../fonts/KoushikiSans-Regular.ttf') format('truetype');
+  font-family: 'IBMPlexSans-Italic';
+  src: url('../fonts/IBMPlexSans-Italic.eot');
+    src: url('../fonts/IBMPlexSans-Italic.eot') format('embedded-opentype'),
+       url('../fonts/IBMPlexSans-Italic.woff2') format('woff2'),
+       url('../fonts/IBMPlexSans-Italic.woff') format('woff'),
+       url('../fonts/IBMPlexSans-Italic.ttf') format('truetype'),
+       url('../fonts/IBMPlexSans-Italic.svg#IBMPlexSans-Italic') format('svg');
 }
 @font-face {
-  font-family: 'koushiki-light';
-  src: url('../fonts/KoushikiSans-light.eot');
-      src: url('../fonts/KoushikiSans-light.eot?#iefix') format('embedded-opentype'), 
-           url('../fonts/KoushikiSans-light.woff') format('woff'),
-           url('../fonts/KoushikiSans-Thin.ttf') format('truetype');
+  font-family: 'IBMPlexSans-Light';
+  src: url('../fonts/IBMPlexSans-Light.eot');
+    src: url('../fonts/IBMPlexSans-Light.eot') format('embedded-opentype'),
+       url('../fonts/IBMPlexSans-Light.woff2') format('woff2'),
+       url('../fonts/IBMPlexSans-Light.woff') format('woff'),
+       url('../fonts/IBMPlexSans-Light.ttf') format('truetype'),
+       url('../fonts/IBMPlexSans-Light.svg#IBMPlexSans-Light') format('svg');
 }
 
 @font-face {
-  font-family: 'koushiki-thin';
-  src: url('../fonts/KoushikiSans-Thin.eot');
-      src: url('../fonts/KoushikiSans-Thin.eot?#iefix') format('embedded-opentype'), 
-           url('../fonts/KoushikiSans-Thin.woff') format('woff'),
-           url('../fonts/KoushikiSans-Thin.ttf') format('truetype');
+  font-family: 'IBMPlexSans-Thin';
+  src: url('../fonts/IBMPlexSans-Thin.eot');
+    src: url('../fonts/IBMPlexSans-Thin.eot') format('embedded-opentype'),
+       url('../fonts/IBMPlexSans-Thin.woff2') format('woff2'),
+       url('../fonts/IBMPlexSans-Thin.woff') format('woff'),
+       url('../fonts/IBMPlexSans-Thin.ttf') format('truetype'),
+       url('../fonts/IBMPlexSans-Thin.svg#LatoRegular') format('svg');
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -377,7 +383,7 @@ table,
 p,
 ul,
 ol,
-form { margin-bottom: 1rem; color: #777; font-family: "Koushiki-Regular";}
+form { margin-bottom: 1rem; color: #777; font-family: "IBMPlexSans-Light";}
 
 
 /* Utilities
@@ -462,7 +468,9 @@ h1 { position: absolute; left: -9999px; }
 
 p { margin: 0 0 1rem 0; line-height: 2rem; }
 
-.hand { font-size: 3em; margin-bottom: .7em; }
+h4 { font-family: "IBMPlexSans-Italic"; }
+
+.hand { font-size: 2.5em; margin-bottom: .7em; }
 
 .alexander_face { width: 100%; }
 
@@ -470,7 +478,11 @@ p { margin: 0 0 1rem 0; line-height: 2rem; }
 
 .home h5:nth-last-of-type(3) { margin-top: 2.5rem }
 
+.home header div.one-third { display: flex; justify-content: space-between; }
+
 .contact, .email { margin-bottom: 10px; text-align: center; }
+
+.email > * { display: inline-block;}
 
 .contact { margin-top: 45px; }
 
@@ -484,7 +496,6 @@ a:hover { background-color: yellow; }
 
 .edit { margin: 0px; font-size: .7em; margin-left: 3rem; }
 
-
 @media (max-width: 550px) {
   h4 { margin-top: 10px; }
   .email { margin-bottom: 75px; font-size: .9em; }
@@ -492,6 +503,7 @@ a:hover { background-color: yellow; }
 }
 
 @media (max-width: 375px) {
+  h5 { margin: 0 20px 0 20px; }
   h4 { margin: 0 20px 0 20px; }
   .row { margin: 0 20px 0 20px; }
   .pn { margin: 0 20px 20px 20px; }
@@ -500,7 +512,7 @@ a:hover { background-color: yellow; }
 /* Author's Notes resume
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-h4 { text-transform: uppercase; margin-top: 30px; }
+.resume h4 { font-family: "IBMPlexSans-Italic"; text-transform: uppercase; margin-top: 30px;}
 
 h5 p { font-size: 1em;}
 
@@ -511,8 +523,6 @@ h6 { margin-top: 2rem; }
 .resume .bottom { margin-top: 1.5rem;}
 
 .resume .email { margin-bottom: 40px; }
-
-.container .resume { margin-top: 1em; text-transform: uppercase;}
 
 
 /* Author's Notes photography
