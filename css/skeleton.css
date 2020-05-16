@@ -53,7 +53,7 @@
   .container {
     width: 80%; }
   .column, .columns {
-    margin-left: 4%; }
+    margin-left: 0%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
@@ -470,23 +470,23 @@ p { margin: 0 0 1rem 0; line-height: 2rem; }
 
 h4 { font-family: "IBMPlexSans-Italic"; }
 
-.hand { font-size: 2.5em; margin-bottom: .7em; }
+/*.hand { font-size: 2.5em; margin-bottom: .7em; }*/
 
-.alexander_face { width: 100%; }
+/*.alexander_face { width: 100%; }*/
 
 .bottom { text-transform: uppercase; margin-bottom: 1.5rem; }
 
 .home h5:nth-last-of-type(3) { margin-top: 2.5rem }
 
-.home header div.one-third { display: flex; justify-content: center; }
+.home header div.one-third { display: flex;  }
 
-.contact, .email { margin-bottom: 10px; text-align: center; }
+/*.contact, .email { margin-bottom: 10px; text-align: center; }*/
 
 .email > * { display: inline-block;}
 
 .contact { margin-top: 45px; }
 
-.email { margin-left: 5px;}
+/*.email { margin-left: 5px;}*/
 
 i { margin: 0 2px 0 2px } 
 
