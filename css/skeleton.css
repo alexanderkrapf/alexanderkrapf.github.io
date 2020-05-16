@@ -503,9 +503,9 @@ a:hover { background-color: yellow; }
 }
 
 @media (max-width: 375px) {
-  h5 { margin: 0 20px 0 20px; }
-  h4 { margin: 0 20px 0 20px; }
-  .row { margin: 0 20px 0 20px; }
+  h5 { margin: 0 0px 0 0px; }
+  h4 { margin: 0 0px 0 0px; }
+  .row { margin: 0 0px 0 0px; }
   .pn { margin: 0 20px 20px 20px; }
 }
 
