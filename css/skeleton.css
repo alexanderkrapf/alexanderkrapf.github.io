@@ -462,7 +462,7 @@ there.
 /* Author's Notes index
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-body { min-height: 100vh; background-color: #F9E0D9 }
+body { min-height: 100vh; background-color: #9fcdfc36 }
 
 h1 { position: absolute; left: -9999px; }
 
@@ -492,7 +492,7 @@ i { margin: 0 2px 0 2px }
 
 a { text-decoration: none } 
 
-a:hover { background-color: #F05365; }
+a:hover { background-color: #FE5D9F; }
 
 .edit { margin: 0px; font-size: .7em; margin-left: 3rem; }
 
