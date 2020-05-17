@@ -188,7 +188,7 @@ p { margin-top: 0; line-height: 2rem; }
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #3D26F7; }
 a:hover {
   color: #FE5D9F; }
 
@@ -249,8 +249,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #3D26F7;
+  border-color: #3D26F7; }
 
 
 /* Forms
@@ -383,7 +383,7 @@ table,
 p,
 ul,
 ol,
-form { margin-bottom: 1rem; color: #777; font-family: "IBMPlexSans-Light";}
+form { margin-bottom: 1rem; color: #525252; font-family: "IBMPlexSans-Light";}
 
 
 /* Utilities
@@ -462,7 +462,7 @@ there.
 /* Author's Notes index
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-body { min-height: 100vh; background-color: #9fcdfc36 }
+body { min-height: 100vh; background-color: #EBEAEA }
 
 h1 { position: absolute; left: -9999px; }
 
